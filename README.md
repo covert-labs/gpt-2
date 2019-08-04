@@ -1,4 +1,21 @@
-# gpt-2
+# gpt-2 powershell
+
+This code is for using GPT-2 to classify powershell code
+
+### Setup
+
+```
+git clone https://github.com/covert-labs/gpt-2.git gpt-2-powershell
+cd gpt-2-powershell
+conda create -n gpt-2-powershell python=3.7  
+conda activate gpt-2-powershell
+pip install -r requirements.txt
+
+python download_model.py 345M
+```
+
+
+
 
 Code from the paper ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf).
 
